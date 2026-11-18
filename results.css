@@ -1,0 +1,81 @@
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Page header */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header h2 {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+/* Metadata bar */
+.metadata {
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 12px;
+    margin: 0 20px 20px 20px;
+    font-weight: bold;
+}
+
+/* Results table */
+table {
+    width: 95%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+/* Table borders and spacing */
+th,
+td {
+    border: 1px solid #333333;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Main table heading */
+thead tr:first-child th {
+    background-color: #333333;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+}
+
+/* Column headings */
+thead tr:nth-child(2) th {
+    background-color: #555555;
+    color: white;
+}
+
+/* Alternate row colours */
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FFF8F4;
+}
+
+/* Class average row */
+tfoot {
+    background-color: #EEEEEE;
+    font-weight: bold;
+}
+
+tfoot th,
+tfoot td {
+    padding: 14px;
+}
